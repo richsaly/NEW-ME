@@ -17,7 +17,7 @@ var typed = new Typed('.type', {
 
 counters.forEach(counter => {
   const target = +counter.getAttribute('data-count');
-  const duration = 100; // Animation duration in milliseconds
+  const duration = 10; // Animation duration in milliseconds
   const step = Math.floor(target / duration);
 
   const updateCount = () => {
@@ -36,21 +36,21 @@ counters.forEach(counter => {
 
 // swipe effect
 
-const swiper = new Swiper('.swiper', {
-    autoplay: {
-      delay:4000,
-      disableOninteraction:false
-    },
-    loop: true,
-    pagination: {
-      el: '.swiper-pagination',
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+// const swiper = new Swiper('.swiper', {
+//     autoplay: {
+//       delay:4000,
+//       disableOninteraction:false
+//     },
+//     loop: true,
+//     pagination: {
+//       el: '.swiper-pagination',
+//     },
+//     navigation: {
+//       nextEl: '.swiper-button-next',
+//       prevEl: '.swiper-button-prev',
+//     },
   
-  });
+//   });
 
   function showSidebar(){
 const sidebar = document.querySelector('.sidebar')
