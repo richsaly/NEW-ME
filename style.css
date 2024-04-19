@@ -400,6 +400,78 @@
       text-align: center;
     }
 
+    .project{
+      margin-top: 30px;
+    }
+
+    .proj-col{
+      padding: 50px 50px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .pro-col1{
+      padding: 10px 10px;
+      border: 1px solid white;
+      border-radius: 10px;
+      width: 55%;
+    }
+
+    .vue{
+      display: flex;
+      align-items: center;
+      padding: 10px 10px;
+      border: 2px solid white;
+      border-radius: 10px;
+      margin-top: 5px;
+
+    }
+
+    .vue:hover{
+      border: 1px solid salmon;
+      border-radius: 10px;
+      transition: 0.5s;
+    }
+
+    .vue p{
+      margin-left: 15px;
+      margin-right: 20px;
+      font-size: 13px;
+      text-align: justify;
+    }
+
+    .vue img{
+      height: 130px;
+      border-radius: 10px;
+    }
+
+
+
+    .proj-img img{
+      height: 450px;
+      position: static;
+    }
+
+    .git-btn{
+      margin-left: 200px;
+    }
+
+    .git-btn a{
+       text-decoration: none;
+       background-color: aliceblue;
+       color: #081b29;
+       padding: 5px 10px;
+       border-radius: 50px;
+       font-weight: 700;
+    }
+
+    .git-btn a:hover{
+      border-radius: 20px;
+      background-color: #062942;
+      color: aliceblue;
+      transition: 0.5s;
+    }
+
   .footer{
    margin-top: 20px;
    padding: 0px 50px;
@@ -531,6 +603,12 @@
       margin-left: 20px;
       font-size: 30px;
    }
+
+     .vue img{
+      height: 130px;
+      width: 150px;
+      border-radius: 10px;
+    }
 }
 
 /* mobile view */
@@ -812,6 +890,78 @@
   .s-links a{
    margin-right: 10px;
   }
+
+     .proj-col{
+   padding: 0px 30px;
+   flex-direction: column-reverse;
+ }
+
+
+
+ .pro-col1{
+   padding: 0px 10px;
+   border: 1px solid white;
+   border-radius: 10px;
+   width: 100%;
+ }
+
+ .vue{
+   flex-direction: column;
+   align-items: center;
+   padding: 10px 10px;
+   border: 2px solid white;
+   border-radius: 10px;
+   margin-top: 10px;
+
+ }
+
+ .vue:hover{
+   border: 1px solid salmon;
+   border-radius: 10px;
+   transition: 0.5s;
+ }
+
+ .vue p{
+   margin-left: 15px;
+   margin-right: 20px;
+   font-size: 13px;
+   text-align: justify;
+ }
+
+ .vue img{
+   height: 130px;
+   width: 100%;
+   border-radius: 10px;
+ }
+
+
+
+ .proj-img img{
+   height: 300px;
+   margin-bottom: 20px;
+ }
+
+ .git-btn{
+   margin-top: 20px;
+   margin-left: 30%;
+ }
+
+ .git-btn a{
+    text-decoration: none;
+    background-color: aliceblue;
+    color: #081b29;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 700;
+ }
+
+ .git-btn a:hover{
+   border-radius: 20px;
+   background-color: #062942;
+   color: aliceblue;
+   transition: 0.5s;
+ }
+
   
       
   }
